@@ -1,0 +1,78 @@
+
+#func {
+width: 400px;
+height:500px;
+border-color: black;
+position:fixed;
+top:0px;
+border-style: solid;
+font-size:30px;
+overflow:scroll;
+}
+#stats{ 
+margin: 0;
+padding: 0;
+white-space: nowrap;
+overflow-x: auto;
+overflow-y: hidden;
+width: 400px;
+height:500px;
+border-color: black;
+position:fixed;
+top:0px;
+right:0px;
+border-style: solid;
+font-size:30px;
+}
+#texts {
+width: 455px;
+height:500px;
+border-color: black;
+position:fixed;
+top:0px;
+right:405px;
+border-style: solid;
+font-size:20px;
+overflow-y:scroll;
+}
+
+
+
+.button {
+width:100px;
+	height:30px;
+	border-style:solid;
+	border-color:#cc0000;
+	background-color:#e67300;
+	border-width:2px;
+	border-radius:5px;
+	position:fixed;	
+}
+#floc{
+display: none;
+}
+
+#flv{
+display: none;	
+}
+#back{
+overflow-y:scroll;
+display:none;
+font-size:15px;
+}
+#battle{
+display: none;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

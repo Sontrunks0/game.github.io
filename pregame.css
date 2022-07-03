@@ -1,0 +1,36 @@
+
+.slow {
+  display: inline-block;
+  vertical-align: bottom;
+  max-width: 0.5rem;
+  overflow: hidden;
+  animation: slow 2s ease forwards;
+}
+@keyframes slow {
+  from {
+    max-width: 0.5rem;
+  }
+  to {
+    max-width: 3rem;
+  }
+}
+#start {
+width: 800px;
+height: 500px;
+background-color:#ededde;
+border-radius:15px;
+text-align:center;
+margin: 0 auto;
+position:relative;
+top:100px;
+box-shadow: 0 0 10px 10px #888888;
+box-shadow: 0 0 0 10px 10 #888888;
+}
+h1{
+  animation:fadeIn 5s;
+  }
+@keyframes fadeIn{
+  0%{opacity:0;}  
+  80%{opacity:0;}
+  100%{opacity:1;}
+  }
